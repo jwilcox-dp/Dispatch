@@ -1,0 +1,9 @@
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\bin\Release\Synchronizer.dll.config
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\bin\Release\Synchronizer.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\bin\Release\Synchronizer.XmlSerializers.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\bin\Release\Synchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Release\DNACircSynchronizer.Processes.Properties.Resources.resources
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Release\Synchronizer.csproj.GenerateResource.Cache
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Release\Synchronizer.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Release\Synchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Release\Synchronizer.XmlSerializers.dll

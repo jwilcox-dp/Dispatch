@@ -1,0 +1,17 @@
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Synchronizer\bin\Debug\Synchronizer.dll.config
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Synchronizer\bin\Debug\Synchronizer.dll
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Synchronizer\bin\Debug\Synchronizer.pdb
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\DNACircSynchronizer.Processes.Properties.Resources.resources
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\ResGen.read.1.tlog
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\ResGen.write.1.tlog
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\Synchronizer.dll
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\Synchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\bin\Debug\Synchronizer.dll.config
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\bin\Debug\Synchronizer.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\bin\Debug\Synchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\DNACircSynchronizer.Processes.Properties.Resources.resources
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\Synchronizer.csproj.GenerateResource.Cache
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\Synchronizer.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\Synchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\Synchronizer\obj\Debug\Synchronizer.csprojResolveAssemblyReference.cache

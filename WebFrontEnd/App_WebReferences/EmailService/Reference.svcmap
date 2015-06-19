@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="49d372ef-e596-4ca8-86f2-b720690c9350" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://inwebserver1.dna.root.ad/Emailer/EmailService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EmailService.wsdl" MetadataType="Wsdl" ID="fa135f34-95f6-4d19-8302-e9037591dbcf" SourceId="1" SourceUrl="http://inwebserver1.dna.root.ad/Emailer/EmailService.svc?wsdl" />
+    <MetadataFile FileName="EmailService.xsd" MetadataType="Schema" ID="9e87d6b8-51fb-401b-a799-3064da042f96" SourceId="1" SourceUrl="http://inwebserver1.dna.root.ad/Emailer/EmailService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EmailService1.xsd" MetadataType="Schema" ID="c0bf931a-a93c-4bc8-8ccb-1840558f940a" SourceId="1" SourceUrl="http://inwebserver1.dna.root.ad/Emailer/EmailService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EmailService.disco" MetadataType="Disco" ID="ad71cacd-fa08-4492-91e0-d74740f37c6b" SourceId="1" SourceUrl="http://inwebserver1.dna.root.ad/Emailer/EmailService.svc?disco" />
+    <MetadataFile FileName="EmailService2.xsd" MetadataType="Schema" ID="b774216c-e895-4444-b06b-24a9853f94c9" SourceId="1" SourceUrl="http://inwebserver1.dna.root.ad/Emailer/EmailService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

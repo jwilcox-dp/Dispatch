@@ -1,0 +1,49 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DNACircSynchronizer.Processes.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DispatchReaderConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DNAPASCD\SQL2005;Initial Catalog=Dispatch;Persist Security Info=True;User ID=DispatchReader;Password=90872rkmnasdfd987asdfkjlsadf&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DNAPASCD\SQL2005;Initial Catalog=Dispatch;Persist Security Info=True;User ID=DispatchReader;Password=90872rkmnasdfd987asdfkjlsadf</Value>
+    </Setting>
+    <Setting Name="DispatchWriterConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DNAPASCD\SQL2005;Initial Catalog=Dispatch;Persist Security Info=True;User ID=DispatchWriter;Password=sldakjg09270q4tkljsngfdasdf&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DNAPASCD\SQL2005;Initial Catalog=Dispatch;Persist Security Info=True;User ID=DispatchWriter;Password=sldakjg09270q4tkljsngfdasdf</Value>
+    </Setting>
+    <Setting Name="CJConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Dsn=SystemA&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Dsn=SystemA</Value>
+    </Setting>
+    <Setting Name="Synchronizer_SISWebServices_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://inwebserver1/SISWebServicesStaging/Service.asmx</Value>
+    </Setting>
+    <Setting Name="SISConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DNADB1;Failover Partner=DNADB2;Initial Catalog=SIS;User ID=SIS;Password=9988fk12348dkhjgha&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DNADB1;Failover Partner=DNADB2;Initial Catalog=SIS;User ID=SIS;Password=9988fk12348dkhjgha</Value>
+    </Setting>
+    <Setting Name="LogArchiveConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DNADB2;Initial Catalog=LogArchive;User ID=sa;Password=jornada&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DNADB2;Initial Catalog=LogArchive;User ID=sa;Password=jornada</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,628 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #E7E7CF url(images/img01.jpg) repeat-x left top;
+	text-align: justify;
+	font-family: Georgia, "Times New Roman" , Times, serif;
+	font-size: 13px;
+	color: #2F4600;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+input, textarea, select {
+	font: normal 1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-left: 31px;
+}
+
+
+h1, h2, h3
+{
+	font-weight: 700;
+	font-family: 'Arial Narrow';
+}
+
+h1
+{
+	font-size: medium;
+	text-decoration: underline;
+	color: #002000;
+}
+
+h2
+{
+	font-size: small;
+	color: #000035;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+p, ul, ol {
+}
+
+p {
+}
+
+.blockbg {
+	background: #D9D785;
+}
+
+blockquote {
+	font-style: italic;
+	border: #D9D785 1px dashed;
+	background: #ECE29F;
+	margin: 0;
+	padding: 0px 20px;
+	font-size: 16px;
+	color: #A1B635;
+}
+
+ul {
+}
+
+ol {
+}
+
+a {
+	color: #4E7301;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+small {
+}
+
+hr {
+	display: none;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 0 15px 0 0;
+	border: #D9D785 1px dashed;
+}
+
+img.right {
+	float: right;
+	margin: 0 0 0 15px;
+	border: #D9D785 1px dashed;
+}
+
+/* Header */
+
+#header {
+	width: 920px;
+	height: 155px;
+	margin: 0 auto;
+	letter-spacing: -1px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#headerbg {
+	margin: 0 auto;
+	width: 920px;
+	height: 250px;
+	margin-bottom: 20px;
+	background: url(images/img02.jpg) no-repeat left top;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 450px;
+}
+
+#logo h1, #logo h2, #logo p {
+	float: left;
+	margin: 0;
+	text-transform: lowercase;
+}
+
+#logo h1 {
+	padding-top: 80px;
+	text-align: center;
+	font-size: 4em;
+	color: #299762;
+}
+
+#logo h1 a {
+	color: #FEEDB9;
+}
+
+#logo p {
+	padding-top: 100px;
+	text-transform: lowercase;
+	font-size: 1.8em;
+	color: #ABC13A;
+}
+
+#logo h2 a, #logo p a {
+	color: #ABC13A;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	height: 190px;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 90px;
+	padding: 100px 0px 0px 30px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 1.6em;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	height: 161px;
+	color: #FEEDB9;
+}
+
+#menu .current_page_item a {
+	color: #FEEDB9;
+}
+
+/* Page */
+
+#page {
+	width: 920px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#latest-post {
+	float: left;
+	width: 590px;
+	padding: 0px 20px 0px 20px;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+#recent-posts {
+	float: right;
+	width: 250px;
+	padding: 0px 20px 20px 20px;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+#recent-posts .entry {
+}
+
+#recent-posts .entry a {
+}
+
+#recent-posts .more {
+	background: url(images/img04.gif) no-repeat left 50%;
+	padding-left: 20px;
+}
+
+.post {
+}
+
+.post .title {
+	margin: 0;
+}
+
+.post .meta {
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	line-height: normal;
+	font-size: 13px;
+	color: #A2B736;
+}
+
+.post .meta a {
+	color: #7F9C1E;
+}
+
+.post .entry {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	border-bottom: #D9D785 1px dashed;
+
+}
+
+/* Sidebar */
+
+#sidebar {
+	clear: both;
+	width: 920px;
+	background: #ECE29F;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	display: block;
+	float: left;
+	width: 200px;
+	padding: 15px;
+}
+
+#sidebar li ul {
+	line-height: 1.8em;
+	border-top: #77881F 2px dashed;
+}
+
+#sidebar li li {
+	display: list-item;
+	float: none;
+	width: auto;
+	padding: 0 0 0 10px;
+	line-height: 35px;
+	border-bottom: #A1B635 1px dashed;
+}
+
+#sidebar h2 {
+	margin: 0 0 10px 0;
+	padding-left: 20px;
+	background: url(images/img03.jpg) no-repeat left 50%;
+	color: #5F8700;
+}
+
+#sidebar a {
+	text-decoration: none;
+	color: #4E7301;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Footer */
+
+#footer {
+	width: 920px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: #F5E7AC;
+}
+
+#footer p {
+	margin: 0;
+	padding: 15px;
+}
+
+#legal {
+	float: left;
+}
+
+#links {
+	float: right;
+}
+
+#wrapper {
+	width: 100%;
+	background: #5C8400;
+}
+
+.MainDiv
+{
+	font-family: 'Arial Black';
+	font-size: medium;
+	background-color: #EEFFDD;
+	border: medium ridge #005500;
+	width: 200px;
+	text-align: center;
+}
+
+.ViewDiv
+{
+	margin: 5px;
+	background-color: #C1AF8C;
+	border: thin groove #515128;
+	height: 1px;
+	width:756px;
+}
+
+.ViewDivWide
+{
+	margin: 5px;
+	background-color: #C1AF8C;
+	border: thin groove #515128;
+	vertical-align: top;
+	width: 774px;
+}
+
+.FieldLabel
+{
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.TextBox
+{
+	margin-left: 5px;
+}
+
+.FieldLabelSmall
+{
+	margin-left: 20px;
+	font-size: xx-small;
+}
+
+.TextBoxSmall
+{
+	margin-right: 40px;
+	font-size: x-small;
+}
+
+
+.EditLabel
+{
+	text-align: right;
+	width: 150px;
+	margin-left:30px;
+}
+.EditNarrow
+{
+	font-size: small;
+	text-align: left;
+	width: 35px;
+}
+
+.EditMedium
+{
+	font-size: small;
+	text-align: left;
+	width: 70px;
+}
+
+.EditWide
+{
+	font-size: small;
+	text-align: left;
+	width: 130px;
+}
+
+.DDLWide
+{
+	font-size: small;
+	text-align: left;
+	width: 138px;
+}
+.DDLNarrow
+{
+	font-size: small;
+	text-align: left;
+	width: 45px;
+}
+.DDLMedium
+{
+	font-size: small;
+	text-align: left;
+	width: 80px;
+}
+
+
+.Calendar
+{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+
+
+
+
+
+.SectionTitle
+{
+	font-size: x-small;
+	margin-left: 5px;
+	text-decoration: underline;
+}
+
+.ViewButton
+{
+	border-style: outset;
+	border-width: thin 1px thin 1px;
+	border-color: #16160C;
+	background-color: #414121;
+	margin-right: 2px;
+	margin-left: 0px;
+	color: #FFFFFF;
+}
+.ViewButtonSelected
+{
+	border-style: outset;
+	border-width: thin 1px thin 1px;
+	border-color: #16160C;
+	background-color: #E2E2C7;
+	margin-right: 2px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+.DisplayOrderTextBox
+{
+	width: 80px;
+}
+.DescriptionTextBox
+{
+	width: 130px;
+}
+.CodeTextBox
+{
+	width: 80px;
+}
+
+.DivNoMargins
+{
+	border: 2px groove #660033;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.DisplayOrderTextBoxAddRow
+{
+	width: 65px;
+}
+.DescriptionTextBoxAddRow
+{
+	width: 115px;
+}
+.CodeTextBoxAddRow
+{
+	width: 65px;
+}
+
+.ErrorText
+{
+	color: #820000;
+}
+
+.AlertColor
+{
+	background-color: #FFB7B7;
+}
+
+
+.CommandColumn
+{
+	width: 150px;
+}
+
+.Button
+{
+	border: thin groove #333300;
+	background-color: #C5C58B;
+	margin: auto 20px auto 20px;
+}
+
+.ButtonCentered
+{
+	border: thin groove #333300;
+	background-color: #C5C58B;
+	margin: auto 20px auto 20px;
+	text-align: center;
+}
+
+.AlertItem
+{
+	background-color: #FF9999;
+}
+
+.CompletedItem
+{
+	background-color: #CCFFCC;
+}
+
+.ComplaintItem
+{
+	background-color: #FFE188;
+}
+
+.ViewedItem
+{
+	background-color: #CAE4FF;
+}
+
+.UnviewedItem
+{
+	background-color: #FFFF93;
+}
+
+.ColorWhite
+{
+	background-color: #FFFFFF;
+}
+
+.ColorBlue
+{
+	background-color: #95D5FF;
+}
+
+.ColorBrown
+{
+	background-color: #D56A00;
+}
+
+.ColorYellow
+{
+	background-color: #FFFF35;
+}
+
+.ColorGreen
+{
+	background-color: #9DFF9D;
+}
+
+.ColorGray
+{
+	background-color: #DDDDDD;
+}
+
+.ColorRed
+{
+	background-color: #FF8C8C;
+}
+
+.ColorPurple
+{
+	background-color: #C600C6;
+}
+
+.ColorOrange
+{
+	background-color: #FF9E5E;
+}
+
+
+
+
+
+
+

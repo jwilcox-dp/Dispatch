@@ -1,0 +1,16 @@
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\DNACircSynchronizer.exe.config
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\DNACircSynchronizer.exe
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\DNACircSynchronizer.pdb
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\Synchronizer.dll
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\Synchronizer.pdb
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\DNACircSynchronizer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\DNACircSynchronizer\obj\Debug\DNACircSynchronizer.exe
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\DNACircSynchronizer\obj\Debug\DNACircSynchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\DNACircSynchronizer.exe.config
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\obj\Debug\DNACircSynchronizer.exe
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\obj\Debug\DNACircSynchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\DNACircSynchronizer.exe
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\DNACircSynchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\Synchronizer.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Debug\Synchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\obj\Debug\SyncServices.csprojResolveAssemblyReference.cache

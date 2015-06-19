@@ -1,0 +1,14 @@
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\TestProject\bin\Debug\TestProject.dll
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\TestProject\bin\Debug\TestProject.pdb
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\TestProject\bin\Debug\Synchronizer.dll
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\TestProject\bin\Debug\Synchronizer.pdb
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\TestProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\TestProject\obj\Debug\TestProject.dll
+C:\Users\RRodriguez\Documents\MyProjects\Dispatch\TestProject\obj\Debug\TestProject.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\bin\Debug\TestProject.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\bin\Debug\TestProject.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\bin\Debug\Synchronizer.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\bin\Debug\Synchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\obj\Debug\TestProject.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\obj\Debug\TestProject.pdb

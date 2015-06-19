@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Dispatch">
+</Property><Property Name="Solution File" Value="C:\Users\RRodriguez\Documents\MyProjects\Dispatch\Dispatch.sln">
+</Property><Property Name="Date" Value="Tuesday, February 14, 2012">
+</Property><Property Name="Time" Value="14:35 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Synchronizer" Source="Synchronizer\Synchronizer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Synchronizer" Source="Synchronizer\Synchronizer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SyncServices" Source="DNACircSynchronizer\SyncServices.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SyncServices" Source="DNACircSynchronizer\SyncServices.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestProject" Source="TestProject\TestProject.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestProject" Source="TestProject\TestProject.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Dispatch.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Dispatch.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Synchronizer" Source="Synchronizer\Synchronizer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SyncServices" Source="DNACircSynchronizer\SyncServices.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="Dispatch1.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Dispatch1.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="TestProject" Source="TestProject\TestProject.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

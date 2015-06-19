@@ -1,0 +1,8 @@
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\bin\Release\TestProject.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\bin\Release\TestProject.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\bin\Release\Synchronizer.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\bin\Release\Synchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\bin\Release\Synchronizer.XmlSerializers.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\obj\Release\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\obj\Release\TestProject.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\TestProject\obj\Release\TestProject.pdb

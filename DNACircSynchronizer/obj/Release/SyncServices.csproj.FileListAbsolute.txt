@@ -1,0 +1,8 @@
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Release\DNACircSynchronizer.exe.config
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Release\DNACircSynchronizer.exe
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Release\DNACircSynchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Release\Synchronizer.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Release\Synchronizer.pdb
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\bin\Release\Synchronizer.XmlSerializers.dll
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\obj\Release\DNACircSynchronizer.exe
+C:\Users\jwilcox\Documents\MyProjects\Dispatch\DNACircSynchronizer\obj\Release\DNACircSynchronizer.pdb

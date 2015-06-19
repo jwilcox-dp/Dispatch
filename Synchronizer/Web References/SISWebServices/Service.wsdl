@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="NewEmailAddress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EmailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AcceptsPromotions" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CanSendEmail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewEmailAddressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NewEmailAddressResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateEmailAddress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NewEmailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OldEmailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AcceptsPromotions" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CanSendEmail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateEmailAddressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateEmailAddressResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteEmailAddress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EmailAddress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteEmailAddressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteEmailAddressResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateComplaintInSISOnly">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="inChargeCarrier" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="inComment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="inComplaintCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="inCreditDays" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="inDateEntered" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="inEffectiveDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="inAddressKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="inPubCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="inEscalate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="inSubscriptionNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateComplaintInSISOnlyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateComplaintInSISOnlyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateMemoInSISOnly">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="inMemoText" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="inDispatchFlag" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="inSendToCarrierFlag" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="inSendToDMFlag" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="inSOSEscalateFlag" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="inDateEntered" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="inEffectiveDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="inAddressKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="inOperatorInitials" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateMemoInSISOnlyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateMemoInSISOnlyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="NewEmailAddressSoapIn">
+    <wsdl:part name="parameters" element="tns:NewEmailAddress" />
+  </wsdl:message>
+  <wsdl:message name="NewEmailAddressSoapOut">
+    <wsdl:part name="parameters" element="tns:NewEmailAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateEmailAddressSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateEmailAddress" />
+  </wsdl:message>
+  <wsdl:message name="UpdateEmailAddressSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateEmailAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteEmailAddressSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteEmailAddress" />
+  </wsdl:message>
+  <wsdl:message name="DeleteEmailAddressSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteEmailAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateComplaintInSISOnlySoapIn">
+    <wsdl:part name="parameters" element="tns:CreateComplaintInSISOnly" />
+  </wsdl:message>
+  <wsdl:message name="CreateComplaintInSISOnlySoapOut">
+    <wsdl:part name="parameters" element="tns:CreateComplaintInSISOnlyResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateMemoInSISOnlySoapIn">
+    <wsdl:part name="parameters" element="tns:CreateMemoInSISOnly" />
+  </wsdl:message>
+  <wsdl:message name="CreateMemoInSISOnlySoapOut">
+    <wsdl:part name="parameters" element="tns:CreateMemoInSISOnlyResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="NewEmailAddress">
+      <wsdl:input message="tns:NewEmailAddressSoapIn" />
+      <wsdl:output message="tns:NewEmailAddressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEmailAddress">
+      <wsdl:input message="tns:UpdateEmailAddressSoapIn" />
+      <wsdl:output message="tns:UpdateEmailAddressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmailAddress">
+      <wsdl:input message="tns:DeleteEmailAddressSoapIn" />
+      <wsdl:output message="tns:DeleteEmailAddressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateComplaintInSISOnly">
+      <wsdl:input message="tns:CreateComplaintInSISOnlySoapIn" />
+      <wsdl:output message="tns:CreateComplaintInSISOnlySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateMemoInSISOnly">
+      <wsdl:input message="tns:CreateMemoInSISOnlySoapIn" />
+      <wsdl:output message="tns:CreateMemoInSISOnlySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NewEmailAddress">
+      <soap:operation soapAction="http://tempuri.org/NewEmailAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEmailAddress">
+      <soap:operation soapAction="http://tempuri.org/UpdateEmailAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmailAddress">
+      <soap:operation soapAction="http://tempuri.org/DeleteEmailAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateComplaintInSISOnly">
+      <soap:operation soapAction="http://tempuri.org/CreateComplaintInSISOnly" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateMemoInSISOnly">
+      <soap:operation soapAction="http://tempuri.org/CreateMemoInSISOnly" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NewEmailAddress">
+      <soap12:operation soapAction="http://tempuri.org/NewEmailAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEmailAddress">
+      <soap12:operation soapAction="http://tempuri.org/UpdateEmailAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmailAddress">
+      <soap12:operation soapAction="http://tempuri.org/DeleteEmailAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateComplaintInSISOnly">
+      <soap12:operation soapAction="http://tempuri.org/CreateComplaintInSISOnly" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateMemoInSISOnly">
+      <soap12:operation soapAction="http://tempuri.org/CreateMemoInSISOnly" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://inwebserver1/SISWebServicesStaging/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://inwebserver1/SISWebServicesStaging/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
